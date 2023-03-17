@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+    .header {
+        padding: 1.25rem 4%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .nav {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: .5rem 4%;
+        background: rgba(255, 255, 255, .1);
+        border-bottom: 2px solid rgba(255, 255, 255, .2);
+    }
+
+    .nav a {
+        display: block;
+        margin: 1.5rem 0;
+    }
+
+}
+
+
+
